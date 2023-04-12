@@ -1,0 +1,82 @@
+html {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: 'arial';
+}
+
+
+#biscuitWrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#biscuitCounter {
+    font-size: 8vh;
+    font-family: 'Times New Roman';
+}
+
+#biscuit {
+    width: 40vh;
+    cursor: pointer;
+}
+
+#biscuit:hover {
+    scale: 1.05;
+}
+
+#biscuit:active {
+    scale: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+#upgradeWrapper {
+    font-size: 1.6vh;
+    max-width: 80vh;
+    margin: 0 auto;
+}
+
+#prodCounter {
+    margin-top: 8vh;
+    text-align: center;
+}
+
+#upgradeGrid {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-areas: 
+    '1 2 3'
+    ;
+}
+
+#rollingPin {
+    grid-area: 1;
+}
+
+.button {
+    cursor: pointer;
+    padding: .7vh;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    text-align: center;
+    max-width: 5vh;
+    margin-top: 1vh;
+}
